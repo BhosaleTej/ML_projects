@@ -2,7 +2,7 @@ import sys
 # sys - It rpovides various functions and variables that are used to 
 #       manipulate different parts of the python runtime environment.
 
-from source.logger import loggging
+from source.logger import logging
 
 def error_message_detail(error, error_detail: sys):
     _,_,exc_tb = error_detail.exc_info() 

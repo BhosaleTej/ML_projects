@@ -3,3 +3,10 @@ numpy
 seaborn
 
 -e .
+
+# '-e .' : when you are working on a project and want to include the project
+#         itself in the installatio process, ensuring that changes to the project
+#         code are immediately applied.
+
+# benefits of editable mode (-e .) - any changes we make to the source code of
+#     package are immediately available without reinstalling the package.
